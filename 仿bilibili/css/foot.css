@@ -1,0 +1,91 @@
+.foot {
+    height: 372px;
+    background-color: #f6f9fa;
+}
+.foot .foot-top {
+    margin-top: 50px;
+    height: 112px;
+    margin-bottom: 40px;
+}
+.foot-top-left {
+    width: 33.3%;
+    height: 100%;
+    border-right: solid 1px #e5e9ef;
+}
+.foot-top .tips, .foot-top .content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.foot-top .tips {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #99a2aa;
+}
+.foot-top .content {
+    height: auto;
+}
+.foot-top .content li{
+    width: 33.3%;
+    font-size: 14px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.foot-top .content li:hover{
+    color: #00a1d6;
+    cursor: pointer;
+}
+.foot-top-mid {
+    width: 33.3%;
+    height: 100%;
+    border-right: solid 1px #e5e9ef;
+}
+.foot-top-right {
+    width: 33.2%;
+    height: 100%;
+}
+.foot-top-right .content {
+    margin: 0 20px;
+    width: auto;
+    height: 100%;
+    text-align: center;
+}
+.foot-top-right .content div {
+    float: left;
+    margin: 0 5px;
+    margin-top: 5px;
+}
+.foot-top-right .content div:hover {
+    color:  #00a1d6;
+    cursor: pointer;
+}
+.foot .foot-bottom {
+    height: 216px;
+    padding-bottom: 30px;
+}
+.foot .foot-bottom div {
+    float: left;
+}
+.foot-bottom-left {
+    width: 10%;
+    height: 100%;
+}
+.foot-bottom-right {
+    width: 85.5%;
+    height: 100%;
+}
+.foot-bottom-right p, .foot-bottom-right a {
+    line-height: 24px;
+    text-align: left;
+    color: #99a2aa;
+    font-size: 12px;
+}
+.foot-bottom-right a:hover {
+    color: black;
+}
+.foot-bottom-left img {
+    width: 100px;
+}
+.foot-bottom-right {
+    padding-left: 30px;
+}

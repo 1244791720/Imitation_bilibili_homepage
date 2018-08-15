@@ -1,0 +1,153 @@
+body {
+    width:1024px;
+    height: 600px;
+}
+
+.nav {
+    width: 100%;
+    position: absolute;
+    z-index:999;
+
+}
+.nav-menu {
+    position: absolute;
+}
+
+.nav-menu li , .nav-menu li a{
+    padding: 0 5px;
+    color: black;
+    line-height:42px;
+    font-size: 10px;
+    height: 42px;
+}
+.nav-con li:hover {
+    background-color:  hsla(0,0%,100%,.5)
+}
+.nav-con-left {
+    padding-left: 30px;
+}
+.nav-con-left li {
+    float:left;
+}
+.nav-con-right li {
+    float:left;
+}
+.nav-con-right {
+    margin-left: 100px;
+}
+.nav-mask {
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    background-color: hsla(0,0%,100%,.4);
+    z-index:9;
+}
+.face {
+    margin: 3px 0;
+    float:right;
+}
+.head-logo {
+    position: absolute;
+    width: 220px;
+    height: 105px;
+    left: 84px;
+    top: 55px;
+    z-index: 10;
+}
+.search {
+    width: 400px;
+    height: 32px;
+    padding: 0 12px;
+    font-size: 12px;
+    color: #222;
+    position: absolute;
+    left: 650px;
+    top:140px;
+}
+.search-left {
+    background-color: hsla(0,0%,100%,.8);
+    width:70px;
+    border-radius: 10%;
+}
+.search-right {
+    padding: 0 10px;
+    width: 250px;
+    height: 100%;
+    background-color: hsla(0,0%,100%,.8);
+    border-radius: 12%;
+}
+.search div {
+    display: inline-block;
+}
+.search a {
+    color: #f25d8e;
+}
+.search form {
+    display: inline-block;
+    float: right;
+}
+.search form  input {
+    outline: none;
+    background-color:none !important;
+    -webkit-appearance: none;
+    border:0;
+    background-color: transparent;
+     width: 200px;
+}
+
+ .search form button {
+    border:0;
+    background-color: none;
+}
+
+.search-div-a, .search form{
+    bottom: 6px;
+    position: absolute;
+
+}
+
+.search-img {
+    background:url(http://static.hdslb.com/images/base/icons.png) -659px -655px no-repeat;
+    width: 30px;
+    height: 31.1px;
+    display: inline-block;
+}
+
+.nav-menu-bottom {
+    margin: 0 13.5px;
+    color: black;
+     height: 42px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.nav-menu-bottom li {
+    padding: 0 6px;
+    float: left;
+}
+.nav-menu-bottom a {
+    font-size: 10px;
+    color: black;
+}
+.num-wrap {
+    background-color: #ffafc9;
+    color: #fff;
+    transform: scale(.85);
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+.num-wrap span {
+    padding: 1px 3px;
+}
+.nav-name {
+    padding-left: 5px;
+}
+.nav-menu-bottom-img {
+    padding-left: 8px;
+    margin-bottom: -4px;
+}
+
+/*nav-sub*/
+.nav-sub {
+    width: 130px;
+    height: 120px;
+}
